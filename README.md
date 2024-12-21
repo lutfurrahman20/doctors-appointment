@@ -1,8 +1,19 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+This project is an online platform for booking appointments with doctors or hospitals. It allows users to:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Browse and filter doctors by specialty.
+- Select a date and time slot within a 7-day window.
+- Book an appointment with their preferred doctor.
+
+## Features
+
+- User-friendly interface.
+- Filtering system to find doctors by specialty.
+- Real-time availability check for appointments.
+
+## Technology Stack
+
+- Frontend: React
+- Backend: Node.js, Express
+- Database: MongoDB
